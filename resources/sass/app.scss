@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.login-bg {
+    z-index: -16;
+    max-width: inherit;
+    left: 20px;
+    right: 200px;
+}
+
+.auth-form {
+    width: 303px;
+}
