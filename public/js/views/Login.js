@@ -2042,7 +2042,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function Login(porps) {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
-    email: "yinka1@yinka.com.ng",
+    email: "demo@user.com",
     password: "1234567890",
     loading: false
   }),
@@ -2277,9 +2277,6 @@ function Signup(props) {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
         className: "text-center text-4xl font-bold",
         children: "Join Us"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
-        className: "text-center mt-3",
-        children: ["Create an account and begin keeping ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("br", {}), "track of all of your crypto investments"]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "loginform ",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
