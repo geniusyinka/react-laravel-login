@@ -92,10 +92,6 @@ function Signup(props) {
             <div className="auth-form container sm mt-80 mb-20 ">
             {/* <img src="/assets/images/Home.png" className="login-bg opacity-70 absolute" alt="" /> */}
                 <h1 className="text-center text-4xl font-bold">Join Us</h1>
-                <p className="text-center mt-3">
-                    Create an account and begin keeping <br />
-                    track of all of your crypto investments
-                </p>
                 <div className="loginform ">
                     <form  onSubmit={onSubmitHandle}>
                         <label htmlFor="name" className="block mt-4 text-gray-700 text-sm font-bold mb-2">Full Name</label>
